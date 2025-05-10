@@ -1,0 +1,11 @@
+# 全局配置
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# 允许从任何地方下载安装包文件
+/downloads/*
+  Access-Control-Allow-Origin: *
+  Content-Disposition: attachment
+  Cache-Control: public, max-age=86400 
